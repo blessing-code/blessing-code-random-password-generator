@@ -76,3 +76,16 @@ input {
     text-align: center;
     color: rgb(21, 179, 102);
 }
+
+.copy-btn {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px;
+}
+
+.btn {
+    background: linear-gradient(pink, green);
+    color: rgb(253, 253, 253);
+    background: transparent;
+    border: 1px solid black;
+}

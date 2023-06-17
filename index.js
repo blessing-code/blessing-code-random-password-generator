@@ -27,5 +27,20 @@ function generatePassword() {
     secondInput.value = passwordTwo;
 }
 
+let firstBtn = document.getElementById("pass-code-one")
+function copyFirstPwd() {
+    firstBtn.select()
+    document.execCommand('copy');
+    console.log("This should be working")
+}
 
+function copySecondPwd() {
+    let secondBtn = document.getElementById("pass-code-two")
+    secondBtn.select();
+    document.execCommand("copy");
+    console.log("This should be working");
+}
+
+// BR+b9$`^#m
+// g@S$w)]ZkL
 
